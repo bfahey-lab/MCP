@@ -1,0 +1,32 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Dependency directories
+node_modules/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional lint cache
+.eslintcache
+.oxlintcache
+
+# dotenv environment variable files
+.env
+.env.*.local
+.env.local
+
+# wrangler project
+.dev.vars
+.dev.vars.*
+!.dev.vars.example
+.wrangler/
+dist

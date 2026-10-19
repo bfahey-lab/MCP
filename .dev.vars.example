@@ -1,0 +1,15 @@
+# Local-development overrides for `wrangler dev`.
+# Copy to `.dev.vars` (gitignored) and fill in. Never commit the real values.
+#
+# These come from the delegate agent registered in Workday ASOR with access set
+# to "employee as self". See README.md.
+
+# Region host for Agent Gateway, without scheme.
+WORKDAY_REGION_HOST="us.agent.workday.com"
+
+# Tenant alias, from https://wd8.myworkday.com/<tenantalias>/d/home.html
+# It travels in the URL path of the authorize and token requests.
+WORKDAY_TENANT_ALIAS=""
+
+WORKDAY_CLIENT_ID=""
+WORKDAY_CLIENT_SECRET=""
